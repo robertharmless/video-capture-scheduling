@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[packages]
+icalendar = "*"
+click = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+VideoCaptureScheduling = "python app.py"
+
+[pipenv]
+allow_prereleases = true
